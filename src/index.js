@@ -99,7 +99,7 @@ function Courses() {
 function App() {
   return (
     <userContext.Provider value={"John Doe"}>
-      <BrowserRouter>
+      <BrowserRouter basename="/rect-route">
         <Container className="p-3 my-3 bg-light">
           <Routes>
             <Route path="/" element={<Index />} />
